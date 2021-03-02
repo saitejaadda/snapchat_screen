@@ -1,0 +1,371 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.header{
+  background-color: #019be0;
+  width:auto;
+  height:50px;
+  padding-bottom:14px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+body{
+  background-color: #019be0;
+}
+.first-list{
+  border-radius: 25px 25px 0px 0px;
+}
+.shortvideos{
+  border-radius:80px 80px 0px 0px;
+}
+.girl{
+  height: 50px;
+
+}
+.search{
+  height:30px;
+
+}
+.newchat{
+  height:30px;
+  float:right;
+  padding:16px;
+
+
+}
+.para{
+  display:inline-block;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  height: 80px;
+  font-size:20px;
+  color: white;
+  
+}
+.list{
+  height:70px;
+  padding-bottom:14px;
+  background-color: white;
+  
+}
+.avatar{
+  height:70px;
+}
+.dot{
+  height: 30px;
+  float:right;
+  padding-top: 30px;
+  padding-right:5px;
+}
+.list-text{
+  display:inline-block;
+  vertical-align: super;
+}
+.user-name{
+  font-size:22px;
+  font-weight:bold ;
+}
+.status{
+  height: 70px;
+  float:right;
+  /* margin-right:-60px; */
+}
+.chats{
+  padding-top: 60px;
+}
+.footer{
+  margin: auto;
+  width:100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  background-image: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.7));
+
+
+}  
+.cameras{
+  height:40px;
+}
+.camerasicon{
+  height:70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sticky{
+  width:200px;
+  margin:auto;
+}
+.stories-body{
+  background-color: purple;
+}
+
+.shortvideos{
+  background-color:white;
+  /* display:gird; */
+  /* grid-row-gap:30px; */
+  /* grid-column-gap:50px; */
+  /* padding:10px; */
+  /* height: 1000px; */
+  padding-top:70px ;
+  padding-left:3px ;
+  
+  
+  /* padding: 0px 2px; */
+}
+
+.storyimage{
+  /* height: 440px; */
+  width:100%;
+  height: 100%;
+
+
+}
+.story{
+  position: relative;
+  font-family: Arial;
+  width:calc(50% - 5px);
+  display: inline-block;
+  height:440px;
+  
+  
+}
+.storytext{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right:20px;
+  
+}
+.storytitle{
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  color: white;
+  padding:40px;
+  font-size:10px;
+  
+}
+.caption{
+  font-weight: bold;
+  font-size:20px;
+}
+.firstleft{
+  border-top-left-radius:20px ;
+}
+.firstright{
+  border-top-right-radius:20px;
+}
+.header3{
+  background-color: black;
+  line-height: 50px;
+  
+}
+.forstories{
+  padding-top: 60px;
+}
+.extens{
+  height:70px;
+  width:100%;
+  position: fixed;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0));
+
+}
+
+.stories2{
+  color: white;
+  display:inline-block;
+  padding-left: 10px;
+}
+.private{
+  color:white;
+  display:inline-block;
+  float:right;
+  padding-right:10px;
+}
+.story01{
+  border-radius: 50%;
+  height: 60px;
+  width:60px;
+  padding:10px;
+  
+
+}
+.view{
+  color:white;
+  padding-left:10px;
+  vertical-align: top;
+  margin-top: -20px;
+  
+  
+}
+.storyimages{
+  display: inline-block;
+}
+.friends{
+  color:white;
+  padding-left: 10px;
+  font-size:20px;
+}
+.emoji{
+  
+  float: right;
+  padding: 10px;
+}
+.profilename{
+  display:inline-block;
+  text-align: center;
+  line-height: 0px;
+  vertical-align:middle;
+  height: 80px;
+  font-size:20px;
+  color:black;
+}
+.shift{
+  background-color:white;
+  height:75px ;
+}
+.recent{
+  color:white;
+  padding-left:10px;
+  font-size:20px;
+}
+.board{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.board1{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.extra{
+  padding:10px;
+}
+.paragra{
+  padding:10px;
+}
+.fotter3{
+  color:white;
+  text-align:left;
+  font-size:23px;
+  padding:8px;
+  display: inline-block;;
+
+}
+.sender{
+  float:right;
+  height:30px;
+  display:inline-block;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+.fixing{
+  background-color: #019be0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.refer{
+  background-color:black;
+  padding: 10px;
+}
+.body1{
+  background-color: black;
+}
+.set{
+  float: right;
+  height: 30px;
+}
+.qr{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.bio{
+  text-align: center;
+  color: white;
+  font-size:28px;
+}
+.profile{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+.emojisize{
+  text-align: left;
+  padding-left:45px;
+  
+  
+}
+.smiles{
+  color: white;
+  padding-left:30px;
+  text-align:center;
+  
+}
+.follower{
+  display: inline-block;
+}
+.riyan{
+  width:400px;
+  /* margin-left: 50px; */
+  margin:auto;
+}
+.trophy{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.riyan{
+  background: rgba(255, 255, 255, 0.2);
+  padding:20px;
+  border-radius:20px ;
+  margin:20px;
+}
+.adding{
+  height: 30px;
+  padding-left: 40px;
+  /* margin-top: 30px; */
+  display: inline-block;
+}
+.addingtext{
+  color:white;
+  display: inline-block;
+  font-size:20px;
+  padding-left:20px;
+  text-align: center;
+  /* margin-top:30px; */
+}
+.mystory{
+  border-radius: 50%;
+  height: 60px;
+  width:60px;
+  
+}
+.forstory{
+  color:white;
+  text-align: top;
+  line-height: 32px;
+  vertical-align: top;
+}
+.friendstext{
+  display: inline-block;
+  vertical-align:top ;
+  padding-left: 10px;
+}
+.downloads{
+  float:right;
+  padding: 18px;
+}
+.settingtag{
+ float: right;
+ padding:20px;
+}
+
